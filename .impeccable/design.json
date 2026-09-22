@@ -1,0 +1,270 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-09-21T00:00:00.000Z",
+  "title": "Design System: Chaiane Pasquali | Workshop Molde F1",
+  "extensions": {
+    "colorMeta": {
+      "paper": {
+        "role": "neutral",
+        "displayName": "Papel Quente",
+        "canonical": "#f8f4ec",
+        "tonalRamp": ["oklch(15% 0.012 80)", "oklch(27% 0.012 80)", "oklch(39% 0.012 80)", "oklch(51% 0.012 80)", "oklch(63% 0.012 80)", "oklch(75% 0.012 80)", "oklch(87% 0.012 80)", "oklch(95% 0.012 80)"]
+      },
+      "paper-bright": {
+        "role": "neutral",
+        "displayName": "Papel Luminoso",
+        "canonical": "#fffdf9",
+        "tonalRamp": ["oklch(15% 0.006 80)", "oklch(27% 0.006 80)", "oklch(39% 0.006 80)", "oklch(51% 0.006 80)", "oklch(63% 0.006 80)", "oklch(75% 0.006 80)", "oklch(87% 0.006 80)", "oklch(95% 0.006 80)"]
+      },
+      "champagne": {
+        "role": "secondary",
+        "displayName": "Champagne Técnico",
+        "canonical": "#e9ddc9",
+        "tonalRamp": ["oklch(15% 0.035 78)", "oklch(27% 0.035 78)", "oklch(39% 0.035 78)", "oklch(51% 0.035 78)", "oklch(63% 0.035 78)", "oklch(75% 0.035 78)", "oklch(87% 0.035 78)", "oklch(95% 0.035 78)"]
+      },
+      "nude": {
+        "role": "secondary",
+        "displayName": "Nude de Bancada",
+        "canonical": "#d7c0ac",
+        "tonalRamp": ["oklch(15% 0.045 55)", "oklch(27% 0.045 55)", "oklch(39% 0.045 55)", "oklch(51% 0.045 55)", "oklch(63% 0.045 55)", "oklch(75% 0.045 55)", "oklch(87% 0.045 55)", "oklch(95% 0.045 55)"]
+      },
+      "aged-gold": {
+        "role": "primary",
+        "displayName": "Dourado Envelhecido",
+        "canonical": "#a87d38",
+        "tonalRamp": ["oklch(15% 0.10 78)", "oklch(27% 0.10 78)", "oklch(39% 0.10 78)", "oklch(51% 0.10 78)", "oklch(63% 0.10 78)", "oklch(75% 0.10 78)", "oklch(87% 0.10 78)", "oklch(95% 0.10 78)"]
+      },
+      "gold-light": {
+        "role": "secondary",
+        "displayName": "Luz Dourada",
+        "canonical": "#d9bd84",
+        "tonalRamp": ["oklch(15% 0.075 82)", "oklch(27% 0.075 82)", "oklch(39% 0.075 82)", "oklch(51% 0.075 82)", "oklch(63% 0.075 82)", "oklch(75% 0.075 82)", "oklch(87% 0.075 82)", "oklch(95% 0.075 82)"]
+      },
+      "gold-bright": {
+        "role": "primary",
+        "displayName": "Dourado Brilhante",
+        "canonical": "#f0d89e",
+        "tonalRamp": ["oklch(15% 0.085 86)", "oklch(27% 0.085 86)", "oklch(39% 0.085 86)", "oklch(51% 0.085 86)", "oklch(63% 0.085 86)", "oklch(75% 0.085 86)", "oklch(87% 0.085 86)", "oklch(95% 0.085 86)"]
+      },
+      "ink": {
+        "role": "neutral",
+        "displayName": "Tinta Quente",
+        "canonical": "#211d1a",
+        "tonalRamp": ["oklch(15% 0.012 55)", "oklch(27% 0.012 55)", "oklch(39% 0.012 55)", "oklch(51% 0.012 55)", "oklch(63% 0.012 55)", "oklch(75% 0.012 55)", "oklch(87% 0.012 55)", "oklch(95% 0.012 55)"]
+      },
+      "ink-rich": {
+        "role": "neutral",
+        "displayName": "Tinta Rica",
+        "canonical": "#15120f",
+        "tonalRamp": ["oklch(15% 0.012 58)", "oklch(27% 0.012 58)", "oklch(39% 0.012 58)", "oklch(51% 0.012 58)", "oklch(63% 0.012 58)", "oklch(75% 0.012 58)", "oklch(87% 0.012 58)", "oklch(95% 0.012 58)"]
+      },
+      "muted": {
+        "role": "neutral",
+        "displayName": "Grafite Suave",
+        "canonical": "#655e57",
+        "tonalRamp": ["oklch(15% 0.012 60)", "oklch(27% 0.012 60)", "oklch(39% 0.012 60)", "oklch(51% 0.012 60)", "oklch(63% 0.012 60)", "oklch(75% 0.012 60)", "oklch(87% 0.012 60)", "oklch(95% 0.012 60)"]
+      },
+      "wine": {
+        "role": "primary",
+        "displayName": "Vinho Atelier",
+        "canonical": "#542c34",
+        "tonalRamp": ["oklch(15% 0.065 8)", "oklch(27% 0.065 8)", "oklch(39% 0.065 8)", "oklch(51% 0.065 8)", "oklch(63% 0.065 8)", "oklch(75% 0.065 8)", "oklch(87% 0.065 8)", "oklch(95% 0.065 8)"]
+      },
+      "wine-deep": {
+        "role": "primary",
+        "displayName": "Vinho Profundo",
+        "canonical": "#341a21",
+        "tonalRamp": ["oklch(15% 0.055 8)", "oklch(27% 0.055 8)", "oklch(39% 0.055 8)", "oklch(51% 0.055 8)", "oklch(63% 0.055 8)", "oklch(75% 0.055 8)", "oklch(87% 0.055 8)", "oklch(95% 0.055 8)"]
+      },
+      "rose-light": {
+        "role": "secondary",
+        "displayName": "Rosa Luminoso",
+        "canonical": "#eed9da",
+        "tonalRamp": ["oklch(15% 0.035 8)", "oklch(27% 0.035 8)", "oklch(39% 0.035 8)", "oklch(51% 0.035 8)", "oklch(63% 0.035 8)", "oklch(75% 0.035 8)", "oklch(87% 0.035 8)", "oklch(95% 0.035 8)"]
+      },
+      "warm-white": {
+        "role": "neutral",
+        "displayName": "Branco Quente",
+        "canonical": "#fffefa",
+        "tonalRamp": ["oklch(15% 0.005 85)", "oklch(27% 0.005 85)", "oklch(39% 0.005 85)", "oklch(51% 0.005 85)", "oklch(63% 0.005 85)", "oklch(75% 0.005 85)", "oklch(87% 0.005 85)", "oklch(95% 0.005 85)"]
+      },
+      "hairline": {
+        "role": "neutral",
+        "displayName": "Fio de Registro",
+        "canonical": "rgba(78, 59, 41, 0.17)",
+        "tonalRamp": ["oklch(15% 0.025 60 / 0.17)", "oklch(27% 0.025 60 / 0.17)", "oklch(39% 0.025 60 / 0.17)", "oklch(51% 0.025 60 / 0.17)", "oklch(63% 0.025 60 / 0.17)", "oklch(75% 0.025 60 / 0.17)", "oklch(87% 0.025 60 / 0.17)", "oklch(95% 0.025 60 / 0.17)"]
+      }
+    },
+    "typographyMeta": {
+      "display": { "displayName": "Display Manrope", "purpose": "Promessas do hero e chamadas culminantes em Manrope 560, entrelinha 1.04 e tracking -0.045em; no hero mobile, clamp(2.75rem, 13vw, 4rem) com entrelinha 1.02." },
+      "headline": { "displayName": "Headline Manrope", "purpose": "Títulos de seção balanceados em Manrope 560, entrelinha 1.04 e tracking -0.045em." },
+      "title": { "displayName": "Título de Detalhe Manrope", "purpose": "Benefícios, selos, números e assinaturas curtas em Manrope 520–650; o padrão recorrente usa 650 e tracking entre -0.025em e -0.04em, com entrelinha contextual de 0.9 a 1.42." },
+      "body": { "displayName": "Corpo Claro", "purpose": "Narrativa, explicação, oferta e FAQ." },
+      "label": { "displayName": "Registro Técnico", "purpose": "Datas, índices, estados e microlegendas em Albert Sans 700, entrelinha 1.4, tracking 0.14em e caixa alta." },
+      "gold-emphasis": { "displayName": "Ênfase Dourada Reta", "purpose": "Trechos de display e headline em Manrope 750, dourado e sem itálico." }
+    },
+    "gradients": [
+      { "name": "ink-premium", "value": "linear-gradient(110deg, #15120f, #352d27 52%, #15120f)", "purpose": "CTAs primários e superfícies compactas de máxima hierarquia." },
+      { "name": "wine-depth", "value": "linear-gradient(135deg, #341a21, #542c34 48%, #3d2028)", "purpose": "Campos imersivos de transformação com centro vinho e bordas profundas." },
+      { "name": "light-table", "value": "radial-gradient(circle at 82% 38%, rgba(240,216,158,.2), transparent 29%), linear-gradient(125deg, #fffefa 0%, #faf5ec 52%, #f3e8d9 100%)", "purpose": "Hero luminoso com foco dourado localizado e profundidade de papel." },
+      { "name": "gold-medallion", "value": "linear-gradient(145deg, #f0d89e, #a87d38)", "purpose": "Medalhão metálico dos CTAs." },
+      { "name": "progress-gold", "value": "linear-gradient(90deg, #542c34, #f0d89e, #a87d38, #542c34)", "purpose": "Linha de progresso da página." },
+      { "name": "light-cta", "value": "linear-gradient(120deg, #fffefa, #f3e5cd)", "purpose": "CTA claro sobre tinta e vinho." }
+    ],
+    "textures": [
+      { "name": "body-grain", "value": "fixed fractalNoise, opacity .025", "purpose": "Fibra de papel global, não interativa e quase imperceptível." }
+    ],
+    "shadows": [
+      { "name": "frame-elevation", "value": "0 24px 60px rgba(75, 55, 37, 0.12)", "purpose": "Molduras fotográficas, provas e selos claros." },
+      { "name": "action-rest", "value": "0 12px 32px rgba(33, 29, 26, 0.14)", "purpose": "CTA principal em repouso." },
+      { "name": "action-hover", "value": "0 18px 40px rgba(33, 29, 26, 0.2)", "purpose": "CTA principal elevado no hover." },
+      { "name": "device-elevation", "value": "0 35px 70px rgba(49, 35, 25, 0.27)", "purpose": "Mockup de celular como objeto de maior profundidade." }
+    ],
+    "motion": [
+      { "name": "live-indicator", "value": "2400ms ease-out infinite", "purpose": "Expande e dissolve o halo do indicador dourado da contagem regressiva ao vivo." },
+      { "name": "entrance-editorial", "value": "900ms cubic-bezier(.2,.8,.2,1)", "purpose": "Entrada vertical da cópia principal." },
+      { "name": "entrance-visual", "value": "1000ms cubic-bezier(.2,.8,.2,1)", "purpose": "Entrada lateral do visual principal." },
+      { "name": "interaction-standard", "value": "250ms ease", "purpose": "Hover de linhas e disclosures." },
+      { "name": "cta-foil", "value": "700ms cubic-bezier(.16,1,.3,1)", "purpose": "Faixa refletiva que atravessa o CTA uma vez no hover." },
+      { "name": "scroll-progress", "value": "linear, animation-timeline: scroll(root)", "purpose": "Escala horizontal da linha dourada fixa conforme o avanço da página." },
+      { "name": "light-table-sweep", "value": "7500ms cubic-bezier(.16,1,.3,1) infinite", "purpose": "Varredura diagonal suave sobre a mesa de luz do hero." },
+      { "name": "editorial-marquee", "value": "24000ms linear infinite", "purpose": "Deriva contínua da faixa editorial; 18000ms em telas de até 700px." },
+      { "name": "benefits-bridge", "value": "4500ms ease-in-out infinite", "purpose": "Medalhão percorre a ponte dourada vertical entre os dois percursos no desktop e a conexão horizontal no mobile; fica estático com movimento reduzido." },
+      { "name": "ambient-float", "value": "4000ms ease-in-out infinite", "purpose": "Flutuação discreta das etiquetas ao redor do celular; removida no mobile." },
+      { "name": "phone-scan", "value": "linear, view() entry 10% exit 75%", "purpose": "Faixa luminosa percorre a tela do celular conforme ele atravessa a viewport." },
+      { "name": "section-reveal", "value": "linear, view() entry 4% entry 38%", "purpose": "Resolve opacidade, deslocamento e blur dos contêineres de seção." },
+      { "name": "image-reveal", "value": "linear, view() entry 5% entry 42%", "purpose": "Resolve deslocamento, escala e recorte das composições de prova e autoridade." },
+      { "name": "final-orbit", "value": "linear, animation-timeline: view()", "purpose": "Gira e expande os anéis do fechamento durante a entrada da seção." },
+      { "name": "reduced-motion", "value": "animation:none; transition-duration:.01ms", "purpose": "Remove movimento, progresso e scroll suave; força reveals ao estado final e pausa vídeo." }
+    ],
+    "breakpoints": [
+      { "name": "stack", "value": "980px" },
+      { "name": "mobile", "value": "700px" }
+    ]
+  },
+  "components": [
+    {
+      "name": "Primary CTA",
+      "kind": "button",
+      "refersTo": "button-primary",
+      "description": "Ação principal em gradiente de tinta rica, com feedback de folha metálica e seta em medalhão dourado.",
+      "html": "<a class=\"ds-cta\" href=\"#\"><span>Quero garantir minha vaga</span><span class=\"ds-cta-icon\" aria-hidden=\"true\">↗</span></a>",
+      "css": ".ds-cta { position:relative; isolation:isolate; overflow:hidden; min-height:58px; display:inline-flex; align-items:center; justify-content:space-between; gap:2.3rem; padding:0 1.2rem 0 1.5rem; border:1px solid #211d1a; border-radius:999px; background:linear-gradient(110deg,#15120f,#352d27 52%,#15120f); color:#fffefa; font-family:'Albert Sans',sans-serif; font-size:.92rem; font-weight:700; text-decoration:none; box-shadow:0 12px 32px rgba(33,29,26,.14); transition:transform .3s cubic-bezier(.16,1,.3,1),box-shadow .3s ease,background .3s ease; } .ds-cta::before { content:''; position:absolute; z-index:-1; inset:0; background:linear-gradient(110deg,transparent 20%,rgba(255,255,255,.18) 45%,transparent 70%); transform:translateX(-115%); transition:transform .7s cubic-bezier(.16,1,.3,1); } .ds-cta-icon { width:34px; height:34px; display:grid; place-items:center; border-radius:50%; background:linear-gradient(145deg,#f0d89e,#a87d38); font-size:1.1rem; transition:transform .35s cubic-bezier(.16,1,.3,1); } .ds-cta:hover { transform:translateY(-4px); box-shadow:0 22px 52px rgba(33,29,26,.24); background:#332d28; } .ds-cta:hover::before { transform:translateX(115%); } .ds-cta:hover .ds-cta-icon { transform:rotate(45deg); } .ds-cta:focus-visible { outline:3px solid #a87d38; outline-offset:5px; } @media (prefers-reduced-motion:reduce) { .ds-cta,.ds-cta::before,.ds-cta-icon { transition-duration:.01ms; } }"
+    },
+    {
+      "name": "Light CTA",
+      "kind": "button",
+      "refersTo": "button-light",
+      "description": "Ação clara em gradiente de papel e champagne para campos de tinta ou vinho.",
+      "html": "<a class=\"ds-cta-light\" href=\"#\"><span>Quero participar do workshop</span><span class=\"ds-cta-light-icon\" aria-hidden=\"true\">↗</span></a>",
+      "css": ".ds-cta-light { min-height:58px; display:inline-flex; align-items:center; justify-content:space-between; gap:1.5rem; padding:0 1.2rem 0 1.5rem; border:1px solid #fffefa; border-radius:999px; background:linear-gradient(120deg,#fffefa,#f3e5cd); color:#211d1a; font-family:'Albert Sans',sans-serif; font-size:.92rem; font-weight:700; text-decoration:none; box-shadow:0 12px 32px rgba(33,29,26,.14); transition:transform .3s cubic-bezier(.16,1,.3,1),box-shadow .3s ease,background .3s ease; } .ds-cta-light-icon { width:34px; height:34px; display:grid; place-items:center; border-radius:50%; background:linear-gradient(145deg,#f0d89e,#a87d38); color:#211d1a; font-size:1.1rem; transition:transform .35s cubic-bezier(.16,1,.3,1); } .ds-cta-light:hover { transform:translateY(-4px); box-shadow:0 22px 52px rgba(33,29,26,.24); background:#f3ecdf; } .ds-cta-light:hover .ds-cta-light-icon { transform:rotate(45deg); } .ds-cta-light:focus-visible { outline:3px solid #d9bd84; outline-offset:5px; } @media (prefers-reduced-motion:reduce) { .ds-cta-light,.ds-cta-light-icon { transition-duration:.01ms; } }"
+    },
+    {
+      "name": "Precision Chip",
+      "kind": "chip",
+      "description": "Etiqueta técnica que nomeia intenção, enquadramento ou alcance.",
+      "html": "<span class=\"ds-precision-chip\">Enquadramento</span>",
+      "css": ".ds-precision-chip { display:inline-flex; align-items:center; padding:8px 13px; border:1px solid #d9bd84; border-radius:999px; background:#fffefa; color:#6e542d; font-family:'Albert Sans',sans-serif; font-size:.63rem; letter-spacing:.1em; text-transform:uppercase; box-shadow:0 8px 24px rgba(67,49,33,.12); transition:transform .25s ease,background .25s ease; } .ds-precision-chip:hover { transform:translateY(-3px); background:#f8f4ec; } .ds-precision-chip:focus-visible { outline:3px solid #a87d38; outline-offset:4px; }"
+    },
+    {
+      "name": "Two-Track Benefits",
+      "kind": "custom",
+      "description": "Dois percursos narrativos conectados: Domínio técnico em painel luminoso e Presença percebida em painel vinho profundo, com deslocamento assimétrico, listas ordenadas, numerais romanos fantasma e ponte dourada responsiva.",
+      "html": "<div class=\"ds-benefits-stage\"><article class=\"ds-benefit-track ds-track-technical\"><span class=\"ds-track-marker\">Movimento I</span><h3>Domínio técnico</h3><p>A precisão que você sente na execução e a cliente reconhece no resultado.</p><ol><li><span>01</span><div><strong>Técnica</strong><p>Aprimore o Molde F1 com mais simetria, precisão e segurança.</p></div><b aria-hidden=\"true\">✓</b></li><li><span>02</span><div><strong>Tempo</strong><p>Reduza o tempo de mesa, o retrabalho e o excesso de lixamento.</p></div><b aria-hidden=\"true\">✓</b></li><li><span>03</span><div><strong>Acabamento</strong><p>Eleve a qualidade final e valorize cada detalhe da entrega.</p></div><b aria-hidden=\"true\">✓</b></li></ol></article><div class=\"ds-benefits-bridge\" aria-hidden=\"true\"><span>Técnica</span><i><b>↓</b></i><span>Presença</span></div><article class=\"ds-benefit-track ds-track-presence\"><span class=\"ds-track-marker\">Movimento II</span><h3>Presença percebida</h3><p>A estratégia que transforma um bom trabalho em desejo, atenção e autoridade.</p><ol><li><span>01</span><div><strong>Conteúdo</strong><p>Produza materiais estratégicos que despertam interesse no público.</p></div><b aria-hidden=\"true\">✓</b></li><li><span>02</span><div><strong>Visibilidade</strong><p>Amplie sua presença e comunique melhor o valor do seu trabalho.</p></div><b aria-hidden=\"true\">✓</b></li><li><span>03</span><div><strong>Posicionamento</strong><p>Fortaleça sua imagem como uma profissional preparada e atual.</p></div><b aria-hidden=\"true\">✓</b></li></ol></article></div>",
+      "css": ".ds-benefits-stage { position:relative; display:grid; grid-template-columns:1fr 1fr; gap:clamp(4.5rem,8vw,8rem); align-items:start; } .ds-benefit-track { position:relative; overflow:hidden; padding:clamp(2rem,4vw,3.4rem); border:1px solid rgba(74,54,37,.18); transition:transform .55s cubic-bezier(.16,1,.3,1),box-shadow .55s ease; } .ds-benefit-track::before { position:absolute; right:-1rem; top:-4.5rem; font:700 15rem/1 'Manrope',sans-serif; letter-spacing:-.12em; opacity:.045; pointer-events:none; } .ds-benefit-track:hover { transform:translateY(-8px); } .ds-track-technical { border-radius:5px 92px 5px 5px; background:linear-gradient(145deg,rgba(255,255,255,.86),rgba(248,240,227,.68)); color:#211d1a; box-shadow:0 26px 70px rgba(84,61,39,.1); } .ds-track-technical::before { content:'I'; color:#542c34; } .ds-track-presence { margin-top:5.5rem; border-color:rgba(217,189,132,.34); border-radius:5px 5px 5px 92px; background:radial-gradient(circle at 90% 8%,rgba(217,189,132,.17),transparent 28%),linear-gradient(145deg,#3f2229,#341a21); color:#fffefa; box-shadow:0 35px 85px rgba(52,26,33,.22); } .ds-track-presence::before { content:'II'; right:.5rem; color:#d9bd84; } .ds-track-marker { color:#a87d38; font:700 .65rem/1.4 'Albert Sans',sans-serif; letter-spacing:.15em; text-transform:uppercase; } .ds-benefit-track h3 { position:relative; max-width:9ch; margin:3rem 0 1rem; font:650 clamp(2.5rem,4vw,4.25rem)/.98 'Manrope',sans-serif; letter-spacing:-.055em; } .ds-benefit-track>p { position:relative; max-width:40ch; min-height:110px; } .ds-benefit-track ol { position:relative; margin:0; padding:0; list-style:none; border-top:1px solid rgba(74,54,37,.18); } .ds-benefit-track li { min-height:116px; display:grid; grid-template-columns:34px 1fr 26px; gap:1rem; align-items:center; border-bottom:1px solid rgba(74,54,37,.18); } .ds-benefit-track li>span,.ds-benefit-track li>b { color:#a87d38; font-size:.64rem; font-variant-numeric:tabular-nums; } .ds-benefit-track strong { font:700 1.08rem/1.4 'Manrope',sans-serif; letter-spacing:-.025em; } .ds-benefit-track li p { margin:3px 0 0; font-size:.82rem; line-height:1.5; } .ds-track-presence .ds-track-marker,.ds-track-presence li>span,.ds-track-presence li>b { color:#d9bd84; } .ds-track-presence ol,.ds-track-presence li { border-color:rgba(255,255,255,.16); } .ds-track-presence>p,.ds-track-presence li p { color:#d8cacc; } .ds-benefits-bridge { position:absolute; z-index:3; left:50%; top:10%; bottom:8%; display:flex; flex-direction:column; align-items:center; gap:13px; transform:translateX(-50%); color:#7b5d33; font:700 .55rem/1.4 'Albert Sans',sans-serif; letter-spacing:.14em; text-transform:uppercase; writing-mode:vertical-rl; } .ds-benefits-bridge i { position:relative; flex:1; width:1px; min-height:350px; background:linear-gradient(#d9bd84,#a87d38,#542c34); } .ds-benefits-bridge b { position:absolute; left:50%; top:27%; width:48px; height:48px; display:grid; place-items:center; border:1px solid #a87d38; border-radius:50%; background:linear-gradient(145deg,#fffdf9,#e8d7bd); color:#542c34; box-shadow:0 12px 35px rgba(85,61,37,.18),0 0 0 8px rgba(240,216,158,.14); transform:translate(-50%,-50%); animation:ds-bridge 4.5s ease-in-out infinite; } @keyframes ds-bridge { 50% { top:73%; } } @keyframes ds-bridge-mobile { 50% { left:90%; } } @media (max-width:700px) { .ds-benefits-stage { grid-template-columns:1fr; gap:1.25rem; } .ds-benefit-track { padding:1.7rem; } .ds-benefit-track:hover { transform:none; } .ds-track-technical { grid-row:1; border-radius:5px 58px 5px 5px; } .ds-track-presence { grid-row:3; margin-top:0; border-radius:5px 5px 5px 58px; } .ds-benefit-track>p { min-height:auto; } .ds-benefits-bridge { position:relative; left:auto; top:auto; bottom:auto; grid-row:2; height:72px; flex-direction:row; justify-content:center; transform:none; writing-mode:horizontal-tb; } .ds-benefits-bridge i { flex:0 0 110px; width:110px; height:1px; min-height:1px; background:linear-gradient(90deg,#d9bd84,#a87d38,#542c34); } .ds-benefits-bridge b { top:50%; animation-name:ds-bridge-mobile; } } @media (prefers-reduced-motion:reduce) { .ds-benefit-track,.ds-benefits-bridge b { animation:none; transition-duration:.01ms; } }"
+    },
+    {
+      "name": "FAQ Disclosure",
+      "kind": "custom",
+      "description": "Pergunta expansível ampla, separada por fios editoriais.",
+      "html": "<details class=\"ds-faq\" open><summary>Vai ter certificado?<span aria-hidden=\"true\">⌄</span></summary><p>Participantes elegíveis poderão solicitar o certificado conforme as regras do evento.</p></details>",
+      "css": ".ds-faq { width:min(620px,100%); border-top:1px solid rgba(74,54,37,.24); border-bottom:1px solid rgba(74,54,37,.24); font-family:'Albert Sans',sans-serif; color:#211d1a; } .ds-faq summary { min-height:92px; display:flex; align-items:center; justify-content:space-between; gap:2rem; cursor:pointer; list-style:none; font-weight:650; } .ds-faq summary span { color:#a87d38; font-size:1.4rem; transition:transform .25s ease; } .ds-faq[open] summary span { transform:rotate(180deg); } .ds-faq p { max-width:68ch; margin:-5px 0 2rem; padding-right:2rem; color:#655e57; line-height:1.7; } .ds-faq summary:hover { color:#542c34; } .ds-faq summary:focus-visible { outline:3px solid #a87d38; outline-offset:5px; }"
+    },
+    {
+      "name": "Asset Placeholder",
+      "kind": "custom",
+      "description": "Moldura honesta para assets secundários ainda não recebidos, sem fabricar evidência; não deve ser usada no hero.",
+      "html": "<div class=\"ds-asset-placeholder\" role=\"img\" aria-label=\"Relato de uma aluna. Imagem pendente.\"><span class=\"ds-scan\" aria-hidden=\"true\">⌗</span><strong>Print de resultado da aluna</strong><small>Imagem disponível em breve</small></div>",
+      "css": ".ds-asset-placeholder { position:relative; width:300px; height:380px; display:flex; flex-direction:column; align-items:center; justify-content:center; gap:9px; padding:24px; overflow:hidden; border:1px solid rgba(168,125,56,.42); border-radius:8px 42px 8px 8px; background:linear-gradient(145deg,#efe6d9,#fdfaf4 55%,#eadbc7); color:#806e5d; text-align:center; } .ds-asset-placeholder::before { content:''; position:absolute; inset:8%; border:1px solid rgba(168,125,56,.24); border-radius:inherit; } .ds-scan { color:#a87d38; font-size:2rem; } .ds-asset-placeholder strong { color:#211d1a; font-family:'Manrope',sans-serif; font-size:1.15rem; font-weight:600; } .ds-asset-placeholder small { font-family:'Albert Sans',sans-serif; font-size:.65rem; letter-spacing:.12em; text-transform:uppercase; } .ds-asset-placeholder:hover { background:linear-gradient(145deg,#eadbc7,#fffdf9 55%,#e9ddc9); } .ds-asset-placeholder:focus-visible { outline:3px solid #a87d38; outline-offset:5px; }"
+    },
+    {
+      "name": "Responsive Hero Banner",
+      "kind": "custom",
+      "description": "Art direction otimizada: banner desktop full-bleed atrás da cópia no campo livre autorado; no mobile, composição vertical de 1100px com banner específico absolutamente posicionado atrás da cópia e véu de branco quente forte no topo, transparente na base para revelar progressivamente o retrato.",
+      "html": "<div class=\"ds-hero-composition\"><picture class=\"ds-hero-banner\"><source media=\"(max-width: 700px)\" srcset=\"banner hero mobile.png\"><img src=\"banner hero desktop.png\" alt=\"Chaiane Pasquali em cenário claro e sofisticado\"></picture></div>",
+      "css": ".ds-hero-composition { position:relative; min-height:100svh; overflow:hidden; } .ds-hero-banner { position:absolute; inset:58px 0 46px; display:block; overflow:hidden; } .ds-hero-banner::after { content:''; position:absolute; inset:0; pointer-events:none; background:linear-gradient(90deg,rgba(255,253,249,.18),transparent 52%); } .ds-hero-banner img { width:100%; height:100%; object-fit:cover; object-position:center; } @media (max-width:700px) { .ds-hero-composition { min-height:1100px; } .ds-hero-banner { position:absolute; inset:62px 0 46px; z-index:0; width:100%; height:auto; margin:0; } .ds-hero-banner::after { background:linear-gradient(180deg,rgba(255,253,249,.97) 0%,rgba(255,253,249,.9) 38%,rgba(255,253,249,.66) 62%,rgba(255,253,249,.18) 82%,transparent 100%); } .ds-hero-banner img { object-position:58% center; } }"
+    },
+    {
+      "name": "Editorial Marquee",
+      "kind": "custom",
+      "description": "Faixa narrativa contínua que conecta técnica, agilidade, posicionamento e visibilidade.",
+      "html": "<div class=\"ds-marquee\" aria-hidden=\"true\"><div class=\"ds-marquee-track\"><span>Precisão</span><i></i><span>Agilidade</span><i></i><span>Posicionamento</span><i></i><span>Visibilidade</span></div></div>",
+      "css": ".ds-marquee { width:620px; min-height:46px; display:flex; align-items:center; overflow:hidden; border-block:1px solid rgba(168,125,56,.2); background:linear-gradient(90deg,#e5d6c0,#f5eada 50%,#e3d0b4); color:#55473c; font-family:'Albert Sans',sans-serif; font-size:.68rem; letter-spacing:.16em; text-transform:uppercase; white-space:nowrap; } .ds-marquee-track { width:max-content; display:flex; align-items:center; gap:2.4rem; padding-inline:2.4rem; animation:ds-marquee-drift 24s linear infinite; } .ds-marquee i { width:4px; height:4px; flex:0 0 auto; border-radius:50%; background:#a87d38; } @keyframes ds-marquee-drift { to { transform:translateX(-50%); } } @media (max-width:700px) { .ds-marquee-track { animation-duration:18s; } } @media (prefers-reduced-motion:reduce) { .ds-marquee-track { animation:none; } }"
+    },
+    {
+      "name": "Gold Progress Line",
+      "kind": "custom",
+      "description": "Registro fixo de 2px que converte a rolagem total em avanço dourado.",
+      "html": "<div class=\"ds-progress\" aria-hidden=\"true\"></div>",
+      "css": ".ds-progress { width:620px; height:2px; background:linear-gradient(90deg,#542c34,#f0d89e,#a87d38,#542c34); box-shadow:0 1px 12px rgba(217,189,132,.7); transform:scaleX(.64); transform-origin:left; } @media (prefers-reduced-motion:reduce) { .ds-progress { display:none; } }"
+    },
+    {
+      "name": "Top Countdown",
+      "kind": "custom",
+      "description": "Faixa superior escura com indicador dourado ao vivo, cápsulas de dias, horas, minutos e segundos atualizadas em tempo real, data fixa e estado iniciado.",
+      "html": "<div class=\"ds-topbar\"><div class=\"ds-countdown\" role=\"timer\" aria-label=\"Contagem regressiva para o workshop\"><div class=\"ds-countdown-heading\"><span class=\"ds-live-dot\" aria-hidden=\"true\"></span><strong>Começa em</strong></div><div class=\"ds-countdown-units\"><div class=\"ds-countdown-unit\"><b>14</b><span class=\"ds-unit-label\">dias</span><span class=\"ds-unit-label-short\">d</span></div><div class=\"ds-countdown-unit\"><b>06</b><span class=\"ds-unit-label\">horas</span><span class=\"ds-unit-label-short\">h</span></div><div class=\"ds-countdown-unit\"><b>32</b><span class=\"ds-unit-label\">min</span><span class=\"ds-unit-label-short\">m</span></div><div class=\"ds-countdown-unit\"><b>09</b><span class=\"ds-unit-label\">seg</span><span class=\"ds-unit-label-short\">s</span></div></div><span class=\"ds-countdown-date\">05 OUT • 19H</span></div><div class=\"ds-started-state\"><div class=\"ds-countdown-heading\"><span class=\"ds-live-dot\" aria-hidden=\"true\"></span><strong>Workshop iniciado</strong></div><span class=\"ds-countdown-live\">Estamos ao vivo</span><span class=\"ds-countdown-date\">05 OUT • 19H</span></div></div>",
+      "css": ".ds-topbar { min-height:58px; display:flex; align-items:center; justify-content:center; background:linear-gradient(100deg,#15120f,#2d2520 45%,#15120f); color:#fffefa; font-family:'Albert Sans',sans-serif; text-transform:uppercase; } .ds-countdown,.ds-started-state { width:min(760px,calc(100% - 32px)); display:flex; align-items:center; justify-content:center; gap:1.4rem; } .ds-started-state { display:none; } .ds-countdown-heading { display:flex; align-items:center; gap:10px; white-space:nowrap; } .ds-countdown-heading strong { color:#f0d89e; font-size:.67rem; letter-spacing:.15em; } .ds-live-dot { width:7px; height:7px; flex:0 0 auto; border-radius:50%; background:#f0d89e; animation:ds-live-pulse 2.4s ease-out infinite; } .ds-countdown-units { display:flex; align-items:center; gap:5px; } .ds-countdown-unit { min-width:54px; display:flex; align-items:baseline; justify-content:center; gap:4px; padding:5px 8px; border:1px solid rgba(240,216,158,.2); border-radius:999px; background:rgba(255,255,255,.045); } .ds-countdown-unit b { color:#fffefa; font-size:.78rem; line-height:1; font-variant-numeric:tabular-nums; } .ds-countdown-unit span { color:#d9cec4; font-size:.52rem; letter-spacing:.08em; } .ds-unit-label-short { display:none; } .ds-countdown-date { padding-left:1.4rem; border-left:1px solid rgba(255,255,255,.22); color:#fffefa; font-size:.62rem; letter-spacing:.14em; white-space:nowrap; } .ds-countdown-live { color:#fffefa; font-size:.65rem; letter-spacing:.1em; } @keyframes ds-live-pulse { 0% { box-shadow:0 0 0 0 rgba(240,216,158,.4); } 70%,100% { box-shadow:0 0 0 9px rgba(240,216,158,0); } } @media (max-width:700px) { .ds-topbar { min-height:62px; } .ds-countdown,.ds-started-state { width:calc(100% - 20px); gap:.55rem; justify-content:space-between; } .ds-countdown-heading { gap:7px; } .ds-countdown-heading strong { font-size:.56rem; letter-spacing:.1em; } .ds-live-dot { width:6px; height:6px; } .ds-countdown-units { gap:3px; } .ds-countdown-unit { min-width:38px; gap:2px; padding:5px 6px; } .ds-countdown-unit b { font-size:.7rem; } .ds-unit-label { display:none; } .ds-unit-label-short { display:inline; } .ds-countdown-date { display:none; } } @media (prefers-reduced-motion:reduce) { .ds-live-dot { animation:none; box-shadow:0 0 0 5px rgba(233,201,134,.13); } }"
+    }
+  ],
+  "narrative": {
+    "northStar": "A Mesa de Luz Editorial",
+    "overview": "O sistema transforma o ambiente de precisão de uma Nail Designer em uma narrativa editorial contínua. Fundos de papel aquecido, linhas de registro, folhas técnicas, macroenquadramentos e superfícies translúcidas comunicam método; a hierarquia sans-only de Manrope e Albert Sans, o dourado envelhecido e o vinho profundo acrescentam feminilidade premium sem fragilidade.\n\nA composição é ampla e respirada, mas nunca genérica. Escala tipográfica dramática, recortes assimétricos e campos escuros conduzem a atenção, enquanto detalhes técnicos e números tabulares tornam técnica, conteúdo e posicionamento partes do mesmo universo visual.",
+    "keyCharacteristics": [
+      "Editorial, preciso e acolhedor.",
+      "Luminosidade quente com contraste concentrado em tinta e vinho.",
+      "Linhas finas, marcas de registro e enquadramentos inspirados em folhas técnicas.",
+      "Dourado raro e funcional, usado para ênfase e orientação.",
+      "Cantos assimétricos e silhuetas arqueadas em vez de cartões uniformes."
+    ],
+    "rules": [
+      { "name": "The Golden Register Rule", "body": "O dourado marca precisão, direção ou ênfase; ele nunca cobre grandes áreas nem substitui o contraste estrutural da tinta e do vinho.", "section": "colors" },
+      { "name": "The Warm Contrast Rule", "body": "Mesmo os extremos da paleta permanecem quentes: use tinta amarronzada e branco marfim, nunca preto puro e branco azulado.", "section": "colors" },
+      { "name": "The Luminous Accent Rule", "body": "Dourado brilhante e rosa luminoso existem como luz, reflexo ou transição. Não os transforme em grandes preenchimentos planos.", "section": "colors" },
+      { "name": "The Sans Hierarchy Rule", "body": "Manrope carrega transformação, autoridade e detalhes; Albert Sans carrega narrativa, instrução, prova e decisão. Mantenha a distinção por função e não introduza fontes serifadas.", "section": "typography" },
+      { "name": "The Balanced Headline Rule", "body": "Títulos são compactos, balanceados, próximos de uma entrelinha unitária e levemente fechados em -0.045em; escala e peso controlado criam hierarquia. No mobile, reduza especialmente o hero para evitar dominância excessiva.", "section": "typography" },
+      { "name": "The Upright Gold Rule", "body": "Ênfase dourada em displays e headlines usa Manrope 750 e font-style normal; não use itálico para sinalizar destaque.", "section": "typography" },
+      { "name": "The Continuous Story Rule", "body": "Alterne campos, listas lineares, provas e composições sobrepostas; não converta a experiência em uma sequência homogênea de grades de cartões.", "section": "layout" },
+      { "name": "The Mobile Restraint Rule", "body": "Em telas de até 700px, preserve a narrativa e o feedback essencial, mas remova halos respirando, sweeps de fundos escuros, varredura da mesa de luz e flutuação de chips. Ornamento nunca compete com leitura, bateria ou fluidez.", "section": "layout" },
+      { "name": "The Responsive Hero Art Direction Rule", "body": "Use sempre os dois banners responsivos fornecidos: desktop full-bleed atrás da cópia no campo livre autorado; mobile vertical absolutamente posicionado atrás da cópia em uma composição de 1100px, protegido por um véu de branco quente forte no topo e transparente na base. Preserve o enquadramento autorado e não substitua esse tratamento por retrato em moldura ou placeholder.", "section": "layout" },
+      { "name": "The Two-Track Benefits Rule", "body": "Benefícios pertencem a dois movimentos narrativos, não a seis unidades equivalentes. Preserve o painel luminoso de Domínio técnico, o painel vinho profundo de Presença percebida, a ordem interna 01–03, o deslocamento vertical no desktop, os cantos complementares e a conexão dourada vertical ou horizontal conforme o breakpoint.", "section": "layout" },
+      { "name": "The Object-Only Elevation Rule", "body": "Sombras pertencem a objetos destacados e ações; seções e células editoriais permanecem definidas por tom e linha.", "section": "elevation" },
+      { "name": "The Gradient Depth Rule", "body": "Gradientes devem explicar luz, material ou hierarquia: radiais localizam brilho; lineares dão volume a metal, papel, tinta e vinho. Não use gradiente como preenchimento genérico nem misture matizes fora da paleta quente.", "section": "elevation" },
+      { "name": "The Paper Grain Rule", "body": "O grão corporal é global, fixo, quase imperceptível e não interativo. Ele adiciona matéria sem reduzir contraste ou competir com imagens e texto.", "section": "elevation" },
+      { "name": "The Asymmetric Frame Rule", "body": "Use assimetria para imagens, selos e blocos de destaque; cartões utilitários repetidos permanecem mais retos para que a forma especial conserve significado.", "section": "shapes" },
+      { "name": "The Foil Feedback Rule", "body": "O brilho do CTA é resposta à intenção, não animação ambiente: permanece fora da cápsula em repouso, atravessa uma vez no hover e desaparece no lado oposto.", "section": "components" }
+    ],
+    "dos": [
+      "Do use o dourado para registrar, orientar e enfatizar detalhes específicos.",
+      "Do combine campos claros extensos com momentos concentrados de tinta ou vinho.",
+      "Do preserve linhas finas, índices, molduras e sobreposições que comuniquem precisão técnica.",
+      "Do mantenha os benefícios divididos entre o percurso luminoso de domínio técnico e o percurso vinho de presença percebida, conectados pela ponte dourada responsiva.",
+      "Do use gradientes para descrever luz e material, mantendo dourado brilhante, rosa e reflexos em baixa área visual.",
+      "Do trate scroll progress, marquee, scan, reveals e órbitas como uma hierarquia coordenada, sempre com estado final legível sem animação.",
+      "Do simplifique composições no mobile e mantenha CTAs com área de toque ampla.",
+      "Do preserve a art direction do hero: banner desktop full-bleed no campo livre autorado e banner mobile absoluto atrás da cópia, dentro da composição de 1100px e sob o véu vertical de branco quente.",
+      "Do pause vídeos e remova movimento não essencial quando o sistema solicitar redução de movimento.",
+      "Do mantenha placeholders honestos e claramente identificados para assets secundários ainda pendentes."
+    ],
+    "donts": [
+      "Don't use preto puro, branco frio, neon ou dourado saturado como grandes superfícies.",
+      "Don't transforme cada seção em uma grade de cartões bege arredondados.",
+      "Don't reduza os seis benefícios a cartões equivalentes; a assimetria, a ordem e o contraste entre os dois movimentos carregam o significado da seção.",
+      "Don't espalhe sombras por divisores, listas ou superfícies que devem permanecer editoriais e planas.",
+      "Don't mantenha sweeps, halos ou flutuações dispendiosas no mobile quando eles não comunicam estado.",
+      "Don't enquadre o hero como retrato, use placeholder nele ou sobreponha a cópia ao rosto em qualquer breakpoint.",
+      "Don't esconda conteúdo atrás de uma animação dependente de scroll sem fallback e estado reduzido explícitos.",
+      "Don't introduza fontes serifadas, use itálico na ênfase dourada ou troque as funções de Manrope e Albert Sans.",
+      "Don't invente fotografias, depoimentos, resultados ou métricas para preencher molduras de prova."
+    ]
+  }
+}

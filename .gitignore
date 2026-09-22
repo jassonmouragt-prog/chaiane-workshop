@@ -1,0 +1,34 @@
+# Dependencies
+node_modules/
+
+# Next.js
+.next/
+out/
+
+# Vercel
+.vercel/
+
+# Local environment
+.env*
+!.env.example
+
+# Logs
+*.log
+npm-debug.log*
+
+# TypeScript
+*.tsbuildinfo
+
+# OS and editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Local review artifacts
+.impeccable/review/
+.impeccable/build/
+.impeccable/mocks/
+
+# Original source copied to public/ with a web-safe name
+video do card.mp4
