@@ -486,10 +486,10 @@ export function LandingPage() {
       <div className="page-progress" aria-hidden="true" />
       <HeroSection />
       <ContentStrategySection />
+      <ProofSection />
       <PainPointsSection />
       <TransformationSection />
       <BenefitsSection />
-      <ProofSection />
       <OfferSection />
       <GuaranteeSection />
       <AboutSection />
