@@ -27,6 +27,7 @@ import heroMobile from "../../banner hero mobile.png";
 import brandLogo from "../../logo chaiane.png";
 import brandLogoWhite from "../../logo chaiane branca.png";
 import studentResult from "../../resultado aluna.jpeg";
+import nailResult from "../../resultado unha.jpeg";
 import beforeResult from "../../antes.jpeg";
 import afterResult from "../../depois.jpeg";
 import aboutChaiane from "../../sobre chaiane.jpeg";
@@ -314,6 +315,14 @@ function ProofSection() {
           <p>Relatos, comparativos técnicos e detalhes que tornam a evolução visível de forma clara e honesta.</p>
         </div>
         <div className="proof-composition">
+          <div className="proof-lead">
+            <AssetFrame asset={nailResult} alt="Unhas finalizadas com a técnica de Molde F1 ensinada no curso" label="Resultado do Molde F1" className="result-proof" priority />
+            <div className="proof-lead-copy">
+              <span className="proof-lead-label">O padrão ensinado no curso</span>
+              <h3>Um resultado com precisão, simetria e acabamento impecável.</h3>
+              <p>O mesmo acabamento que você aprende a entregar nas aulas ao vivo, do molde à valorização estética.</p>
+            </div>
+          </div>
           <AssetFrame asset={studentResult} alt="Relato de uma aluna sobre seus resultados" label="Print de resultado da aluna" className="testimonial-proof" />
           <div className="before-after">
             <div>
@@ -479,7 +488,6 @@ export function LandingPage() {
       <ContentStrategySection />
       <PainPointsSection />
       <TransformationSection />
-      <ContentStrategySection />
       <BenefitsSection />
       <ProofSection />
       <OfferSection />
