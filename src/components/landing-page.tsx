@@ -3,7 +3,6 @@ import {
   ArrowDown,
   ArrowUpRight,
   BadgeCheck,
-  CalendarDays,
   Check,
   ChevronDown,
   Clapperboard,
@@ -108,11 +107,7 @@ function HeroSection() {
               Conhecer a imersão <ArrowDown aria-hidden="true" />
             </a>
           </div>
-          <div className="hero-notes" aria-label="Informações do workshop">
-            <span><Video aria-hidden="true" /> Workshop ao vivo</span>
-            <span><CalendarDays aria-hidden="true" /> 2 dias de imersão</span>
-          </div>
-          <ul className="hero-offer" aria-label="O que está incluso no curso">
+          <ul className="hero-offer" aria-label="O que está incluso no workshop">
             <li><Video aria-hidden="true" /><span>02 aulas ao vivo comigo</span></li>
             <li><Sparkles aria-hidden="true" /><span>Curso Prático de Molde F1</span></li>
             <li><Clapperboard aria-hidden="true" /><span>Segredos para construir conteúdos que viralizam</span></li>
@@ -481,6 +476,7 @@ export function LandingPage() {
     <main className="landing">
       <div className="page-progress" aria-hidden="true" />
       <HeroSection />
+      <ContentStrategySection />
       <PainPointsSection />
       <TransformationSection />
       <ContentStrategySection />
