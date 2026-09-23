@@ -112,6 +112,15 @@ function HeroSection() {
             <span><Video aria-hidden="true" /> Workshop ao vivo</span>
             <span><CalendarDays aria-hidden="true" /> 2 dias de imersão</span>
           </div>
+          <ul className="hero-offer" aria-label="O que está incluso no curso">
+            <li><Video aria-hidden="true" /><span>02 aulas ao vivo comigo</span></li>
+            <li><Sparkles aria-hidden="true" /><span>Curso Prático de Molde F1</span></li>
+            <li><Clapperboard aria-hidden="true" /><span>Segredos para construir conteúdos que viralizam</span></li>
+            <li><MessageCircleMore aria-hidden="true" /><span>Suporte exclusivo</span></li>
+            <li><FileText aria-hidden="true" /><span>Apostila detalhada de Molde F1</span></li>
+            <li><UsersRound aria-hidden="true" /><span>Grupo no WhatsApp com os materiais do Workshop</span></li>
+            <li><BadgeCheck aria-hidden="true" /><span>Certificado de participação</span></li>
+          </ul>
         </div>
       </div>
       <picture className="hero-banner">
