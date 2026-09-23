@@ -197,8 +197,14 @@ p { color: var(--muted); }
 .marquee-track { width: max-content; display: flex; gap: 2.4rem; align-items: center; padding-right: 2.4rem; animation: marquee-drift 24s linear infinite; }
 .hero-marquee i { flex: 0 0 auto; width: 4px; height: 4px; border-radius: 50%; background: var(--gold); }
 
-.pain-section { position: relative; background: radial-gradient(circle at 8% 20%, rgba(217,189,132,.17), transparent 24%), linear-gradient(180deg, var(--paper), #f5eee3); }
-.pain-layout { display: grid; grid-template-columns: .8fr 1.2fr; gap: clamp(3rem, 8vw, 8rem); align-items: start; }
+.date-highlight { position: relative; z-index: 3; padding: clamp(2.6rem, 5vw, 3.8rem) 0; background: radial-gradient(circle at 50% 0%, rgba(168,125,56,.28), transparent 55%), linear-gradient(100deg, var(--ink-rich), #2a231e 50%, var(--ink-rich)); color: var(--white); border-block: 1px solid rgba(240,216,158,.2); overflow: hidden; }
+.date-highlight-inner { display: flex; flex-direction: column; align-items: center; gap: 1rem; text-align: center; }
+.date-highlight-live { display: inline-flex; align-items: center; gap: 9px; color: var(--gold-light); font-size: .64rem; font-weight: 700; letter-spacing: .17em; text-transform: uppercase; }
+.date-highlight-date { display: flex; align-items: center; justify-content: center; flex-wrap: wrap; gap: .55rem; margin: 0; font-family: var(--font-display), sans-serif; font-size: clamp(1.7rem, 4vw, 2.9rem); font-weight: 650; line-height: 1.1; letter-spacing: -.03em; color: var(--white); }
+.date-highlight-date em { font-style: normal; color: var(--gold-bright); }
+.date-highlight-date i { width: 7px; height: 7px; border-radius: 50%; background: var(--gold); box-shadow: 0 0 12px rgba(240,216,158,.7); }
+.date-highlight-note { color: rgba(255,254,250,.68); font-size: .74rem; letter-spacing: .1em; text-transform: uppercase; }
+.pain-section { position: relative; background: radial-gradient(circle at 8% 20%, rgba(217,189,132,.17), transparent 24%), linear-gradient(180deg, var(--paper), #f5eee3); }.pain-layout { display: grid; grid-template-columns: .8fr 1.2fr; gap: clamp(3rem, 8vw, 8rem); align-items: start; }
 .sticky-copy { position: sticky; top: 5rem; }
 .section-intro h2 { font-size: clamp(2.7rem, 4.5vw, 4.6rem); margin-bottom: 2rem; }
 .section-intro p { max-width: 48ch; }

@@ -133,6 +133,24 @@ function HeroSection() {
   );
 }
 
+function DateHighlight() {
+  return (
+    <section className="date-highlight" aria-label="Data e horário do workshop">
+      <div className="page-shell date-highlight-inner">
+        <span className="date-highlight-live"><i className="live-dot" aria-hidden="true" /> Inscrições abertas</span>
+        <p className="date-highlight-date">
+          <em>05 e 06</em>
+          <i aria-hidden="true" />
+          às 19h
+          <i aria-hidden="true" />
+          ao vivo
+        </p>
+        <span className="date-highlight-note">2 dias de imersão com Chaiane Pasquali</span>
+      </div>
+    </section>
+  );
+}
+
 const pains = [
   "Insegurança na hora de executar a técnica de Molde F1",
   "Dificuldade em alcançar simetria e um acabamento impecável",
@@ -485,6 +503,7 @@ export function LandingPage() {
     <main className="landing">
       <div className="page-progress" aria-hidden="true" />
       <HeroSection />
+      <DateHighlight />
       <ContentStrategySection />
       <ProofSection />
       <PainPointsSection />
