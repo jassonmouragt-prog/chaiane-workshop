@@ -10,6 +10,4 @@ export const SITE_ASSETS = {
   after: null as string | null,
   about: null as string | null,
   socialVideo: "/video-do-card.mp4" as string | null,
-  nailCloseup: null as string | null,
-  nailFinish: null as string | null,
 };

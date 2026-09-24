@@ -31,6 +31,8 @@ import nailResult from "../../resultado unha.jpeg";
 import beforeResult from "../../antes.jpeg";
 import afterResult from "../../depois.jpeg";
 import aboutChaiane from "../../sobre chaiane.jpeg";
+import nailCloseupImage from "../../acabamento hiper realista.jpeg";
+import nailFinishImage from "../../prova visual do acabamento.jpeg";
 
 type AssetFrameProps = {
   asset: string | StaticImageData | null;
@@ -239,7 +241,7 @@ function CraftSection() {
         <div className="craft-row">
           <div className="craft-media craft-media--left">
             <AssetFrame
-              asset={SITE_ASSETS.nailCloseup}
+              asset={nailCloseupImage}
               alt="Resultado de Molde F1 com acabamento hiper-realista"
               label="Acabamento hiper-realista"
               className="craft-photo"
@@ -247,18 +249,16 @@ function CraftSection() {
             <i className="craft-dot craft-dot--one" aria-hidden="true" />
           </div>
           <div className="craft-copy">
-            <span className="eyebrow">O resultado que você procura</span>
             <h2 className="craft-statement">
               Eu sei que você já tentou reproduzir aquele <em>acabamento hiper-realista</em>, mas o resultado ainda parece distante do que você gostaria de entregar.
             </h2>
-            <p>
-              Por isso, eu criei uma imersão para te mostrar, na prática, como alcançar mais <em>precisão</em>, <em>simetria</em> e <em>naturalidade</em> no <em>Molde F1</em>.
-            </p>
           </div>
+        </div>
+        <div className="craft-insight">
+          <p>Por isso, eu criei uma imersão para te mostrar, na prática, como alcançar mais <em>precisão</em>, <em>simetria</em> e <em>naturalidade</em> no <em>Molde F1</em>.</p>
         </div>
         <div className="craft-row">
           <div className="craft-copy">
-            <span className="eyebrow">A prova visual do resultado</span>
             <h3 className="craft-headline">Do detalhe ao acabamento.</h3>
             <p>
               Você vai entender o processo por trás de um resultado mais <em>natural</em>, <em>limpo</em> e <em>preciso</em> — sem depender de excesso de lixamento ou correções intermináveis.
@@ -267,7 +267,7 @@ function CraftSection() {
           </div>
           <div className="craft-media craft-media--right">
             <AssetFrame
-              asset={SITE_ASSETS.nailFinish}
+              asset={nailFinishImage}
               alt="Alongamento em Molde F1 com acabamento natural e preciso"
               label="Prova visual do acabamento"
               className="craft-photo"
