@@ -98,9 +98,9 @@ function HeroSection() {
           <div className="signature">
             <Image src={brandLogo} alt="Lapidando Nails" priority />
           </div>
-          <h1>Da precisão na técnica à <em>presença digital.</em></h1>
+          <h1>Aprenda o Molde F1<em>Hiper-Realista</em>do Zero ao Acabamento</h1>
           <p className="hero-lead">
-            Uma imersão para aperfeiçoar seu trabalho com Molde F1 e aprender a valorizar cada detalhe por meio de conteúdos estratégicos.
+            Uma imersão para aperfeiçoar sua <em>técnica</em>, conquistar resultados mais <em>precisos</em> e <em>naturais</em> e aprender a transformar cada trabalho em um conteúdo que valoriza sua imagem profissional.
           </p>
           <div className="hero-actions">
             <CTA />
@@ -125,8 +125,8 @@ function HeroSection() {
       </picture>
       <div className="hero-marquee" aria-hidden="true">
         <div className="marquee-track">
-          <span>Precisão</span><i /> <span>Agilidade</span><i /> <span>Posicionamento</span><i /> <span>Visibilidade</span><i />
-          <span>Precisão</span><i /> <span>Agilidade</span><i /> <span>Posicionamento</span><i /> <span>Visibilidade</span><i />
+          <span>Precisão</span><i /> <span>Simetria</span><i /> <span>Naturalidade</span><i /> <span>Acabamento</span><i />
+          <span>Precisão</span><i /> <span>Simetria</span><i /> <span>Naturalidade</span><i /> <span>Acabamento</span><i />
         </div>
       </div>
     </header>
@@ -164,7 +164,7 @@ function PainPointsSection() {
     <section className="section pain-section" id="experiencia">
       <div className="page-shell pain-layout">
         <div className="section-intro sticky-copy">
-          <h2>Seu trabalho pode ser excelente e ainda assim <em>não ser percebido.</em></h2>
+          <h2>A técnica é o que separa um acabamento comum de um resultado <em>impecável.</em></h2>
           <p>Depois de anos no mercado, eu sei que muitas Nail Designers enfrentam desafios que vão muito além da execução de um alongamento.</p>
           <p>Talvez você também se identifique com algumas dessas situações:</p>
         </div>
@@ -193,12 +193,12 @@ function TransformationSection() {
           <span>Depois</span>
         </div>
         <div className="transformation-copy">
-          <h2>Mas você pode transformar a forma como trabalha <em>e se posiciona.</em></h2>
+          <h2>Mas você pode transformar a forma como executa <em>e o resultado que entrega.</em></h2>
           <div className="copy-columns">
             <p>Durante essa imersão, você vai aprimorar sua técnica de alongamento em Molde F1, buscando mais agilidade, precisão e qualidade no acabamento.</p>
             <p>Além disso, vai descobrir como produzir conteúdos estratégicos que despertam interesse, estimulam o engajamento e ampliam a visibilidade do seu trabalho.</p>
           </div>
-          <blockquote>Porque não basta desenvolver uma técnica. É preciso saber mostrar o valor do que você faz.</blockquote>
+          <blockquote>Quando a técnica é dominada, o resultado fala por si — e o conteúdo apenas amplifica isso.</blockquote>
         </div>
       </div>
     </section>
@@ -232,6 +232,54 @@ function PhoneMockup() {
   );
 }
 
+function CraftSection() {
+  return (
+    <section className="section craft-section" aria-label="Acabamento hiper-realista do Molde F1">
+      <div className="page-shell craft-inner">
+        <div className="craft-row">
+          <div className="craft-media craft-media--left">
+            <AssetFrame
+              asset={SITE_ASSETS.nailCloseup}
+              alt="Resultado de Molde F1 com acabamento hiper-realista"
+              label="Acabamento hiper-realista"
+              className="craft-photo"
+            />
+            <i className="craft-dot craft-dot--one" aria-hidden="true" />
+          </div>
+          <div className="craft-copy">
+            <span className="eyebrow">O resultado que você procura</span>
+            <h2 className="craft-statement">
+              Eu sei que você já tentou reproduzir aquele <em>acabamento hiper-realista</em>, mas o resultado ainda parece distante do que você gostaria de entregar.
+            </h2>
+            <p>
+              Por isso, eu criei uma imersão para te mostrar, na prática, como alcançar mais <em>precisão</em>, <em>simetria</em> e <em>naturalidade</em> no <em>Molde F1</em>.
+            </p>
+          </div>
+        </div>
+        <div className="craft-row">
+          <div className="craft-copy">
+            <span className="eyebrow">A prova visual do resultado</span>
+            <h3 className="craft-headline">Do detalhe ao acabamento.</h3>
+            <p>
+              Você vai entender o processo por trás de um resultado mais <em>natural</em>, <em>limpo</em> e <em>preciso</em> — sem depender de excesso de lixamento ou correções intermináveis.
+            </p>
+            <p className="craft-tagline">Mais controle na técnica. Mais confiança na mesa. Mais valor percebido no seu trabalho.</p>
+          </div>
+          <div className="craft-media craft-media--right">
+            <AssetFrame
+              asset={SITE_ASSETS.nailFinish}
+              alt="Alongamento em Molde F1 com acabamento natural e preciso"
+              label="Prova visual do acabamento"
+              className="craft-photo"
+            />
+            <i className="craft-dot craft-dot--two" aria-hidden="true" />
+          </div>
+        </div>
+      </div>
+    </section>
+  );
+}
+
 function ContentStrategySection() {
   return (
     <section className="section content-section">
@@ -245,9 +293,9 @@ function ContentStrategySection() {
           <PhoneMockup />
         </div>
         <div className="content-copy">
-          <h2>Transforme sua técnica em conteúdo que <em>chama atenção.</em></h2>
-          <p>Você também vai aprender a construir conteúdos com mais intenção: da escolha do detalhe ao enquadramento que evidencia seu acabamento.</p>
-          <p>Chaiane vai compartilhar estratégias para aumentar as chances de viralização, fortalecer sua presença digital e mostrar o valor do seu trabalho de forma profissional.</p>
+          <h2>Além da técnica, aprenda a transformar seus resultados em conteúdos que <em>valorizam seu trabalho.</em></h2>
+          <p>Além da técnica, essa imersão também prepara você para o próximo passo: transformar cada resultado em conteúdo que comunica a qualidade da sua entrega.</p>
+          <p>Chaiane vai compartilhar estratégias para criar conteúdos com mais intenção, fortalecer sua presença digital e mostrar o valor do seu trabalho de forma profissional.</p>
           <ul className="minimal-list">
             <li><Target aria-hidden="true" /> Conteúdo com objetivo, não apenas postagem</li>
             <li><Gauge aria-hidden="true" /> Mais consistência para crescer nas redes</li>
@@ -391,7 +439,7 @@ function OfferSection() {
           })}
         </div>
         <div className="offer-action">
-          <p><strong>Workshop Molde F1</strong><br />Técnica, conteúdo e posicionamento em uma única imersão.</p>
+          <p><strong>Workshop Molde F1</strong><br />Técnica e acabamento em primeiro lugar. Conteúdo estratégico como diferencial.</p>
           <CTA label="Quero participar do workshop" light />
           <small><ShieldCheck aria-hidden="true" /> Ambiente de inscrição seguro</small>
         </div>
@@ -478,7 +526,7 @@ function FinalCTASection() {
       <div className="final-orbit orbit-two" aria-hidden="true" />
       <div className="page-shell final-content">
         <Sparkles aria-hidden="true" />
-        <h2>Eleve sua técnica.<br />Amplie sua presença.</h2>
+        <h2>Domine a técnica.<br /><em>Valorize o resultado.</em></h2>
         <p>Participe ao vivo com Chaiane Pasquali e aprenda a transformar precisão em valor percebido.</p>
         <CTA label="Quero garantir minha vaga" light />
         <span>05 e 06 • às 19h • ao vivo</span>
@@ -504,6 +552,7 @@ export function LandingPage() {
       <div className="page-progress" aria-hidden="true" />
       <HeroSection />
       <DateHighlight />
+      <CraftSection />
       <ContentStrategySection />
       <ProofSection />
       <PainPointsSection />
