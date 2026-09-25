@@ -249,9 +249,9 @@ Entre os painéis, uma ponte vertical nomeia “Técnica” e “Presença”. S
 
 ### Top Countdown
 
-A faixa escura no topo do hero funciona como um cronômetro ao vivo para o início do workshop. Um indicador dourado pulsante acompanha “Começa em”, seguido por cápsulas translúcidas para dias, horas, minutos e segundos; os valores são recalculados a cada segundo, sempre com dois dígitos e numerais tabulares para que a largura não oscile. A data fixa “05 OUT • 19H” encerra a composição no desktop, separada por um fio vertical.
+A faixa escura no topo do hero funciona como um cronômetro ao vivo para o início do workshop. Um indicador dourado pulsante acompanha “Começa em”, seguido por cápsulas translúcidas para dias, horas, minutos e segundos; os valores são recalculados a cada segundo, sempre com dois dígitos e numerais tabulares para que a largura não oscile. A data fixa “07 OUT • 19H” encerra a composição no desktop, separada por um fio vertical.
 
-Em telas de até 700px, a faixa ganha 62px de altura, comprime as cápsulas e troca “dias”, “horas”, “min” e “seg” por “d”, “h”, “m” e “s”; a data fixa é ocultada para preservar a leitura em uma única linha. Quando o horário configurado (`2026-10-05T19:00:00-03:00`) chega ou passa, o título muda para “Workshop iniciado”, as cápsulas desaparecem e “Estamos ao vivo” assume o centro, mantendo a data fixa no desktop.
+Em telas de até 700px, a faixa ganha 62px de altura, comprime as cápsulas e troca “dias”, “horas”, “min” e “seg” por “d”, “h”, “m” e “s”; a data fixa é ocultada para preservar a leitura em uma única linha. Quando o horário configurado (`2026-10-07T19:00:00-03:00`) chega ou passa, o título muda para “Workshop iniciado”, as cápsulas desaparecem e “Estamos ao vivo” assume o centro, mantendo a data fixa no desktop.
 
 ### Editorial Marquee
 

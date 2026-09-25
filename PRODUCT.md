@@ -24,7 +24,7 @@ A formação une o domínio da execução e do acabamento com a capacidade de tr
 
 ## Operating Context
 
-O evento acontece ao vivo nos dias 05 e 06, às 19h. A oferta inclui duas aulas ao vivo, Curso Prático de Molde F1, orientação para criação de conteúdo, suporte, apostila, grupo de WhatsApp, gravações e certificado conforme as regras informadas na página.
+O evento acontece ao vivo nos dias 07 e 08, às 19h. A oferta inclui duas aulas ao vivo, Curso Prático de Molde F1, orientação para criação de conteúdo, suporte, apostila, grupo de WhatsApp, gravações e certificado conforme as regras informadas na página.
 
 ## Capabilities and Constraints
 

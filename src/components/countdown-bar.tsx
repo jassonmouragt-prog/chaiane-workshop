@@ -1,7 +1,9 @@
 "use client";
 
-import { useEffect, useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import { EVENT_START_AT } from "@/lib/site";
+
+const EVENT_DATE = new Date(EVENT_START_AT).getTime();
 
 type TimeLeft = {
   days: number;
@@ -10,8 +12,8 @@ type TimeLeft = {
   seconds: number;
 };
 
-function getTimeLeft(): TimeLeft | null {
-  const difference = new Date(EVENT_START_AT).getTime() - Date.now();
+function computeTimeLeft(now: number): TimeLeft | null {
+  const difference = EVENT_DATE - now;
 
   if (difference <= 0) return null;
 
@@ -31,13 +33,33 @@ const units: Array<[keyof TimeLeft, string, string]> = [
 ];
 
 export function CountdownBar() {
-  const [timeLeft, setTimeLeft] = useState<TimeLeft | null>(getTimeLeft);
+  const clockOffsetRef = useRef(0);
+  const [timeLeft, setTimeLeft] = useState<TimeLeft | null>(() => computeTimeLeft(Date.now()));
 
   useEffect(() => {
-    const update = () => setTimeLeft(getTimeLeft());
-    update();
-    const interval = window.setInterval(update, 1_000);
-    return () => window.clearInterval(interval);
+    let cancelled = false;
+
+    const tick = () => setTimeLeft(computeTimeLeft(Date.now() + clockOffsetRef.current));
+
+    async function syncClock() {
+      try {
+        const res = await fetch("/api/time", { cache: "no-store" });
+        const data = (await res.json()) as { now?: number };
+        if (cancelled || typeof data?.now !== "number") return;
+        clockOffsetRef.current = data.now - Date.now();
+        tick();
+      } catch {
+        // mantém o relógio local como referência
+      }
+    }
+
+    syncClock();
+
+    const interval = window.setInterval(tick, 1_000);
+    return () => {
+      cancelled = true;
+      window.clearInterval(interval);
+    };
   }, []);
 
   return (
@@ -61,7 +83,7 @@ export function CountdownBar() {
         <span className="countdown-loading">Estamos ao vivo</span>
       )}
 
-      <span className="countdown-date">05 OUT • 19H</span>
+      <span className="countdown-date">07 OUT • 19H</span>
     </div>
   );
 }

@@ -141,7 +141,7 @@ function DateHighlight() {
       <div className="page-shell date-highlight-inner">
         <span className="date-highlight-live"><i className="live-dot" aria-hidden="true" /> Inscrições abertas</span>
         <p className="date-highlight-date">
-          <em>05 e 06</em>
+          <em>07 e 08</em>
           <i aria-hidden="true" />
           às 19h
           <i aria-hidden="true" />
@@ -422,7 +422,7 @@ function OfferSection() {
     <section className="offer-section" id="garanta-sua-vaga">
       <div className="page-shell offer-shell">
         <div className="offer-title">
-          <p>05 e 06 • às 19h • ao vivo</p>
+          <p>07 e 08 • às 19h • ao vivo</p>
           <h2>Garanta sua vaga <em>agora.</em></h2>
           <span>e tenha acesso a uma experiência completa:</span>
         </div>
@@ -529,7 +529,7 @@ function FinalCTASection() {
         <h2>Domine a técnica.<br /><em>Valorize o resultado.</em></h2>
         <p>Participe ao vivo com Chaiane Pasquali e aprenda a transformar precisão em valor percebido.</p>
         <CTA label="Quero garantir minha vaga" light />
-        <span>05 e 06 • às 19h • ao vivo</span>
+        <span>07 e 08 • às 19h • ao vivo</span>
       </div>
     </section>
   );
