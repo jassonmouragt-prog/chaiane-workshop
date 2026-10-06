@@ -21,7 +21,7 @@ import {
 import { CHECKOUT_URL, SITE_ASSETS } from "@/lib/site";
 import { ReducedMotionVideo } from "@/components/reduced-motion-video";
 import { CountdownBar } from "@/components/countdown-bar";
-import guaranteeSeal from "../../selo 07 dias.png";
+import guaranteeSeal from "../../selo 19 e 20 dias.png";
 import heroDesktop from "../../banner hero desktop.png";
 import heroMobile from "../../banner hero mobile.png";
 import brandLogo from "../../logo chaiane.png";
@@ -141,7 +141,7 @@ function DateHighlight() {
       <div className="page-shell date-highlight-inner">
         <span className="date-highlight-live"><i className="live-dot" aria-hidden="true" /> Inscrições abertas</span>
         <p className="date-highlight-date">
-          <em>07 e 08</em>
+          <em>19 e 20 de outubro</em>
           <i aria-hidden="true" />
           às 19h
           <i aria-hidden="true" />
@@ -422,7 +422,7 @@ function OfferSection() {
     <section className="offer-section" id="garanta-sua-vaga">
       <div className="page-shell offer-shell">
         <div className="offer-title">
-          <p>07 e 08 • às 19h • ao vivo</p>
+          <p>19 e 20 de outubro • às 19h • ao vivo</p>
           <h2>Garanta sua vaga <em>agora.</em></h2>
           <span>e tenha acesso a uma experiência completa:</span>
         </div>
@@ -529,7 +529,7 @@ function FinalCTASection() {
         <h2>Domine a técnica.<br /><em>Valorize o resultado.</em></h2>
         <p>Participe ao vivo com Chaiane Pasquali e aprenda a transformar precisão em valor percebido.</p>
         <CTA label="Quero garantir minha vaga" light />
-        <span>07 e 08 • às 19h • ao vivo</span>
+        <span>19 e 20 de outubro • às 19h • ao vivo</span>
       </div>
     </section>
   );

@@ -51,7 +51,7 @@ export default function ConfirmationPage() {
           <section className={styles.event} aria-labelledby="event-title">
             <h2 id="event-title">Imersão<br />Lapidando Nails</h2>
             <ul>
-              <li><CalendarDays aria-hidden="true" /><span>07 e 08 de outubro</span></li>
+              <li><CalendarDays aria-hidden="true" /><span>19 e 20 de outubro</span></li>
               <li><Clock3 aria-hidden="true" /><span>Às 19h</span></li>
               <li><Radio aria-hidden="true" /><span>Ao vivo</span></li>
             </ul>

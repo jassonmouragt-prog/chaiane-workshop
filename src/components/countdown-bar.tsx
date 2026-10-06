@@ -35,6 +35,7 @@ const units: Array<[keyof TimeLeft, string, string]> = [
 export function CountdownBar() {
   const clockOffsetRef = useRef(0);
   const [timeLeft, setTimeLeft] = useState<TimeLeft | null>(() => computeTimeLeft(Date.now()));
+  const [, setIsSynced] = useState(false);
 
   useEffect(() => {
     let cancelled = false;
@@ -47,18 +48,28 @@ export function CountdownBar() {
         const data = (await res.json()) as { now?: number };
         if (cancelled || typeof data?.now !== "number") return;
         clockOffsetRef.current = data.now - Date.now();
+        setIsSynced(true);
         tick();
       } catch {
-        // mantém o relógio local como referência
+        setIsSynced(true);
       }
     }
 
     syncClock();
 
     const interval = window.setInterval(tick, 1_000);
+    const handleVisibilityChange = () => {
+      if (document.visibilityState === "visible") {
+        tick();
+      }
+    };
+    document.addEventListener("visibilitychange", handleVisibilityChange);
+    window.addEventListener("focus", tick);
     return () => {
       cancelled = true;
       window.clearInterval(interval);
+      document.removeEventListener("visibilitychange", handleVisibilityChange);
+      window.removeEventListener("focus", tick);
     };
   }, []);
 
@@ -70,7 +81,7 @@ export function CountdownBar() {
       </div>
 
       {timeLeft ? (
-        <div className="countdown-units" aria-live="off">
+        <div className="countdown-units" aria-live="polite">
           {units.map(([key, label, shortLabel]) => (
             <div className="countdown-unit" key={key}>
               <b suppressHydrationWarning>{String(timeLeft[key]).padStart(2, "0")}</b>
@@ -83,7 +94,7 @@ export function CountdownBar() {
         <span className="countdown-loading">Estamos ao vivo</span>
       )}
 
-      <span className="countdown-date">07 OUT • 19H</span>
+      <span className="countdown-date">19 e 20 OUT • 19H</span>
     </div>
   );
 }
